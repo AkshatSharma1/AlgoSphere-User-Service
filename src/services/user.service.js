@@ -2,7 +2,7 @@ const jwt = require('jsonwebtoken');
 const UserRepository = require('../repositories/user.repository');
 const { JWT_SECRET, JWT_EXPIRY } = require('../config/server.config');
 const NotFoundError = require('../errors/notfound.error');
-const BadRequestError = require('../errors/badrequest.error');
+const BadRequestError = require('../errors/badRequest.error');
 
 class UserService {
     constructor() {
